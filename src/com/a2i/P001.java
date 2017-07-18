@@ -34,6 +34,8 @@ class P001 {
         System.out.println("euler 1 solveStream = " + solveStream(1000));
         System.out.println("euler 1 solveStream2 = " + solveStream2(1000));
 
+        System.out.println("prime factors of 1234568 = " + Primes.primeFactors(1234568));
+
 
     }
 
