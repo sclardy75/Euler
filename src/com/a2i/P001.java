@@ -25,6 +25,7 @@ class P001 {
         System.out.println("isPalindrome(1244321 = " + Common.isPalindrome(1244321));
 
         System.out.println("gcd(144, 72) == gcd(144, 72) = " + (Common.gcd(144, 72) == Common.gcd2(144, 72)));
+        System.out.println("gcd(15200, 123400) == gcd(144, 72) = " + (Common.gcd(15200, 123400) == Common.gcd2(144, 72)));
 
         System.out.println("gcd(144, 72) =" + Common.gcd(144, 72));
 
