@@ -42,7 +42,7 @@ class P001 {
     private static Integer solve(Integer n) {
 
         Integer sum = 0;
-        for (int i = 1; i < n; i++) {
+        for (int i = 3; i < n; i++) {
             if (i % 3 == 0 || i % 5 == 0) {
                 sum += i;
             }
@@ -52,12 +52,10 @@ class P001 {
 
     private static Integer solveStream(Integer n) {
 
-        Integer res = IntStream
+        return IntStream
                 .range(3, 1000)
                 .filter(i -> i % 3 == 0 || i % 5 == 0)
                 .sum();
-
-        return res;
     }
 
     private static Integer solveStream2(Integer n) {
