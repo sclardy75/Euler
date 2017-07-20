@@ -1,11 +1,12 @@
 package com.a2i;
 
-import java.math.BigInteger;
 
 public class P003 {
 
 // The prime factors of 13195 are 5, 7, 13 and 29.
 // What is the largest prime factor of the number 600851475143?
+
+// Used online code examples to understand how this type problem could be solved.
 
     public static void main(String[] args) {
 
